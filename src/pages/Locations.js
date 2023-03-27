@@ -4,41 +4,45 @@ const Locations = () => {
     return (
         <main>
              <ol>
-                <a href="A" li> A </a>
-                <a href="B" li> B</a>
-                <a href="C" li> C </a>
-                <a href="D" li> D </a>
-                <a href="E" li> E </a>
-                <a href="F" li> F </a>
-                <a href="G" li> G </a>
-                <a href="H" li> H </a>
-                <a href="I" li> I </a>
-                <a href="J" li> J </a>
-                <a href="K" li> K </a>
-                <a href="L" li> L </a>
-                <a href="M" li> M </a>
-                <a href="N" li> N </a>
-                <a href="O" li> O </a>
-                <a href="P" li> P </a>
-                <a href="Q" li> Q </a>
-                <a href="R" li> R </a>
-                <a href="S" li> S </a>
-                <a href="T" li> T </a>
-                <a href="U" li> U </a>
-                <a href="V" li> V </a>
-                <a href="W" li> W </a>
-                <a href="X" li> X </a>
-                <a href="Y" li> Y</a>
-                <a href="Z" li> Z </a>
+                <a href="#a" li> A </a>
+                <a href="#b" li> B</a>
+                <a href="#c" li> C </a>
+                <a href="#d" li> D </a>
+                <a href="#e" li> E </a>
+                <a href="#f" li> F </a>
+                <a href="#g" li> G </a>
+                <a href="#h" li> H </a>
+                <a href="#i" li> I </a>
+                <a href="#j" li> J </a>
+                <a href="#k" li> K </a>
+                <a href="#l" li> L </a>
+                <a href="#m" li> M </a>
+                <a href="#n" li> N </a>
+                <a href="#o" li> O </a>
+                <a href="#p" li> P </a>
+                <a href="#q" li> Q </a>
+                <a href="#r" li> R </a>
+                <a href="#s" li> S </a>
+                <a href="#t" li> T </a>
+                <a href="#u" li> U </a>
+                <a href="#v" li> V </a>
+                <a href="#w" li> W </a>
+                <a href="#x" li> X </a>
+                <a href="#y" li> Y</a>
+                <a href="#z" li> Z </a>
                 
             </ol>
 
             <section>
                 <div className="grid-cols-5">
-                    <h2>A</h2>
-                    <ol>
-                        <li></li>
-                    </ol>
+                    <div>
+                        <h2 id="#a">A</h2>
+                    </div>
+                    <div>
+                        <h2>B</h2>
+                    </div>
+
+                    
 
                 </div>
             </section>
