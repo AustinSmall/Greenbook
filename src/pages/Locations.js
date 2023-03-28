@@ -93,6 +93,15 @@ const Locations = () => {
                         </ol>
                     </div>
 
+                    <div>
+                        <h2 className="py-1.5">H</h2>
+                        <ol>
+                            <li>
+                            Hollywood Tavern (Gian Hasbrock)
+                            </li>
+                        </ol>
+                    </div>
+
                 </div>
             </section>
         </main>
