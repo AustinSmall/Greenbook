@@ -16,6 +16,7 @@ const Timeline = () => {
     <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+  <img className="w-1/4" src= "biltmore.jpeg"></img>
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
