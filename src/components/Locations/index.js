@@ -2,9 +2,7 @@ import React from 'react';
 
 function TextColumns() {
   return (
-    <div className="container p-6">
-      <div className="columns-4 ">
-      <div className="auto-cols-3">
+      <div className="columns-3 container p-6">
                     <div> 
                         <h2 id="#a" className="py-3">A</h2>
                     </div>
@@ -122,8 +120,6 @@ function TextColumns() {
                         </div>
 
                 </div>
-      </div>
-    </div>
   );
 }
 

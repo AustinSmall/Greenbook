@@ -1,8 +1,14 @@
+const { url } = require("inspector");
+
 module.exports = {
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     darkMode: false, // or 'media' or 'class'
     theme: {
-      extend: {},
+      extend: {
+        backgroundImage:{
+          'vintage': "url('../public/Vintage.jpeg')"
+        }
+      },
     },
     variants: {
       extend: {},

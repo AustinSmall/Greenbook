@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header className= " bg-green-700 mb-4 py-1 flex-row align-center ">
+        <header className= " bg-green-700 py-1 flex-row align-center ">
             <div className='container flex-row justify-space-between-lg justify-center align-center'>
                 <Link to="/">
                     <h1 className='text-4xl'>Greenbooks</h1>
@@ -11,6 +11,7 @@ const Header = () => {
                 <nav className='text-center space-x-4'>
                 <Link to="/about" className=''>About</Link>
                 <Link to="/locations">Locations</Link>
+                <Link to = "/timeline"> Timeline</Link>
                 </nav>
             </div>
 

@@ -4,6 +4,7 @@ import Locations from './pages/Locations'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
+import Timeline from './pages/Timeline';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
     <Route 
     path='/locations'
     element={<Locations/>}
+    />
+    <Route 
+    path='/timeline'
+    element={<Timeline/>}
     />
         </Routes>
       </div>
