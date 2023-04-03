@@ -1,9 +1,10 @@
 import React from 'react';
-
+// About is copied from a differnt project so page isnt empty
 const About = () => {
     return (
         <main>
         <div>
+          
         <h1>Our Purpose</h1>
         <p>
           Here at the Nonprofit Interactive Messaging Portal, or the NIM Portal, we want to help users with communications 

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header className= "flex-row align-center ">
+        <header className= "flex-row align-center bg-green-300 text-black">
             <div className='container flex-row justify-space-between-lg '>
                 <Link to="/">
                     <h1 className='text-4xl '>Greenbooks</h1>
