@@ -8,7 +8,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="1939 "
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">7 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">First year Durham is listed in The Green Book. World War II begins.</h4>
@@ -17,12 +17,12 @@ const Timeline = () => {
        2 Hotels 1 Tavern, 2 Beauty Shops, 2 Service Stations.
     </p>
   </VerticalTimelineElement>
-       <img className="w-1/4" src= "biltmore.jpeg"></img>
+  
   
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="1947"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">15 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">First year published after WWII hiatus from 1942-46.</h4>
@@ -33,7 +33,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="1950"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title"> 34 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">Hayti, Durham's largest segregated black neighborhoods, is known as Harlem of the South.</h4>
@@ -44,7 +44,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="1952"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">33 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">Pettigrew Street is known as Black Wall Street</h4>
@@ -55,7 +55,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="1954"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">29 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">Brown v Board of Education prevents separate but equal doctrine.</h4>
@@ -66,7 +66,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="1956"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">4 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">Supreme Court declares Alabama Bus Segregation illegal.</h4>
@@ -77,7 +77,7 @@ const Timeline = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="1960"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">4 Listings</h3>
     <h4 className="vertical-timeline-element-subtitle">Kennedy elected. Greensboro Woolworth Sit-In</h4>
@@ -89,7 +89,7 @@ const Timeline = () => {
     contentStyle={{ background: 'rgb(250, 250, 250)', color: '#000' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(250, 250, 250)' }}
     date="1966-67"
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,128,0)', color: '#fff' }}
   >
   <h3> 4 Listings </h3>
   <h4> Durham Freeway Bond passed 1962 with support of Black people.</h4>

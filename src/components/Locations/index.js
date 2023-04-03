@@ -50,7 +50,6 @@ function TextColumns() {
             <h2 className="py-1.5"> F</h2>
             <ol className='space-y-.5'>
                 <li>Friendly City Beauty Parlor/Friendly Barber Shop </li>
-
             </ol>
         </div>
 
@@ -131,7 +130,7 @@ function TextColumns() {
             <h2 className='py-1.5'>S</h2>
             <ol className='space-y-.5'>
                 <li>Scott & Roberts Tailors</li>
-                <li>Service Tailors (Miya Vargas)</li>
+                <li>Service Tailors</li>
                 <li>Speight's Service Station</li>
                 <li>Sulton's Esso Service Station</li>
             </ol>

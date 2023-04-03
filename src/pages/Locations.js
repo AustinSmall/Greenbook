@@ -3,7 +3,9 @@ import LocationsComponent from "../components/Locations";
  
 const Locations = () => {
     return (
-        <LocationsComponent/>
+        <div className="bg-vintage">
+            <LocationsComponent/>
+        </div>
     )
 }
 
