@@ -93,9 +93,9 @@ function TextColumns() {
             <h2 className='py-1.5'>M</h2>
             <ol className='space-y-.5'>
                 <li>Midway Service Station</li>
-                <li>Mrs. S. A. Morris </li>
-                <li>Mrs. Mary Sims </li>
-                 <li>Mrs. N. O'Daniel </li>
+                <li>Mrs. S. A. Morris- Tourist Home </li>
+                <li>Mrs. Mary Sims- Tourist Home </li>
+                 <li>Mrs. N. O'Daniel- Tourist Home </li>
             </ol>
         </div>
 
