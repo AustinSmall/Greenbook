@@ -10,32 +10,33 @@ function TextColumns() {
         <div>
             <h2 className="py-1.5">B</h2>
              <ul>
-                <li> Biltmore Hotel </li>
-                <li>Biltmore Service Station</li>
-                <li>Boykin Tailors</li>
-                <li>Bull City Drug Store </li>     
+                <li> <a href='/biltmore-hotel'>Biltmore Hotel </a> </li>
+                <li><a href='/biltmore-station'>Biltmore Service Station </a></li>
+                <li><a href='/boykins-tailors'>Boykins Tailors </a></li>
+                <li><a href='/bull-city-drug-store'>Bull City Drug Store</a></li>  
+                <li><a href= 'bull-city-resturant'>Bull City Restaurant</a></li>   
             </ul>
         </div>
 
         <div className="py-5">
             <h2 className="py-1.5">C</h2>
                 <ol className="space-y-.5">
-                 <li>Catlett's Restaurant </li>
-                 <li>Chautauqua Tavern</li>
-                 <li>Clay's Service Station </li>
-                 <li>College Inn Restaurant/Tavern </li>
-                 <li>Community Tailors</li>
-                 <li>Congro Grill</li>
-                 <li>Cu-Cu Restaurant (Justin Wright)</li>
+                 <li><a href='/catlett'>Catlett's Restaurant</a></li>
+                 <li><a href='/chautauqua'>Chautauqua Tavern</a></li>
+                 <li><a href='/clay'>Clay's Service Station</a></li>
+                 <li><a href='/college'> College Inn Restaurant/Tavern</a></li>
+                 <li><a href='/community'>Community Tailors</a></li>
+                 <li><a href='/congro'> Congro Grill</a></li>
+                 <li><a href='/cucu'> Cu-Cu Restaurant</a></li>
                 </ol>
         </div>
 
         <div className="py-5"> 
             <h2 className="py-1.5">D</h2>
                  <ol className="space-y-.5">
-                    <li>De Lux Barber Shop </li>
-                    <li>De Shazors Hostelry/Beauty Parlor  </li>
-                    <li>D'Orsay Beauty Parlor </li>
+                    <li><a href='/delux'> De Lux Barber Shop </a></li>
+                    <li><a href='/de-shazors'> De Shazors Hostelry/Beauty Parlor </a></li>
+                    <li><a href='/d-orsay'> D'Orsay Beauty Parlor </a></li>
                 </ol>
         </div>
 
