@@ -125,6 +125,10 @@ function App() {
     element={<DeLux/>}
     />
     <Route
+    path='de-shazor'
+    element={<Shazor/>}
+    />
+    <Route
     path= '/elite'
     element={<Elite/>}
     />
