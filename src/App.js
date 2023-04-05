@@ -126,7 +126,7 @@ function App() {
     />
     <Route
     path='de-shazor'
-    element={<Shazor/>}
+    element={<Shazors/>}
     />
     <Route
     path= '/elite'
