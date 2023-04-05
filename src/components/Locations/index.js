@@ -43,29 +43,29 @@ function TextColumns() {
         <div className="py-5">
             <h2 className="py-1.5">E</h2>
             <ol className="space-y-.5">
-                <li>Elite</li>
+                <li><a href='/elite'> Elite</a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className="py-1.5"> F</h2>
             <ol className='space-y-.5'>
-                <li>Friendly City Beauty Parlor/Friendly Barber Shop </li>
+                <li><a href='/friendly'> Friendly City Beauty Parlor/Friendly Barber Shop </a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className="py-1.5">G</h2>
             <ol className="space-y-.5">
-                <li>Garrett's Biltmore Drug Store</li>
-                <li>Granite Service Station</li>
+                <li><a href='/garret'> Garrett's Biltmore Drug Store</a></li>
+                <li><a href='/granite'> Granite Service Station</a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className="py-1.5">H</h2>
             <ol className='space-y-.5'>
-                <li>Hollywood Tavern</li>
+                <li><a href='hollywood'> Hollywood Tavern</a></li>
             </ol>
         </div>
 
@@ -76,8 +76,8 @@ function TextColumns() {
         <div className='py-5'>
             <h2 className='py-1.5'>J</h2>
             <ol className='space-y-.5'>
-                <li>Jack's Grill Tavern </li>
-                <li>Jones Hotel </li>
+                <li><a href='/jacks'> Jack's Grill Tavern</a></li>
+                <li><a href='/jones'> Jones Hotel</a></li>
             </ol>
         </div>
 
@@ -92,10 +92,10 @@ function TextColumns() {
         <div className='py-5'>
             <h2 className='py-1.5'>M</h2>
             <ol className='space-y-.5'>
-                <li>Midway Service Station</li>
-                <li>Mrs. S. A. Morris- Tourist Home </li>
-                <li>Mrs. Mary Sims- Tourist Home </li>
-                 <li>Mrs. N. O'Daniel- Tourist Home </li>
+                <li><a href='/midway'> Midway Service Station</a></li>
+                <li><a href='/morris'> Mrs. S. A. Morris- Tourist Home</a></li>
+                <li><a href='/mary'> Mrs. Mary Sims- Tourist Home</a></li>
+                <li><a href='/o-daniel'> Mrs. N. O'Daniel- Tourist Home </a></li>
             </ol>
         </div>
 
@@ -110,9 +110,9 @@ function TextColumns() {
         <div className='py-5'>
             <h2 className='py-1.5'>P</h2>
                 <ol className='space-y-.5'>
-                    <li>Parker's Inn Tavern </li>
-                    <li>Pettigrew Street</li>
-                    <li>Pine Street Service Station</li>
+                    <li><a href='/parkers'> Parker's Inn Tavern</a></li>
+                    <li><a href='/pettigrew'> Pettigrew Street</a></li>
+                    <li><a href='/pine'> Pine Street Service Station</a></li>
                 </ol>
         </div>
 
@@ -123,46 +123,46 @@ function TextColumns() {
         <div className='py-5'>
             <h2 className='py-1.5'>R</h2>
             <ol className='space-y-.5'>
-                <li>Royal's Cleaners/Tailor </li>
+                <li><a href='/royals'> Royal's Cleaners/Tailor </a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className='py-1.5'>S</h2>
             <ol className='space-y-.5'>
-                <li>Scott & Roberts Tailors</li>
-                <li>Service Tailors</li>
-                <li>Speight's Service Station</li>
-                <li>Sulton's Esso Service Station</li>
+                <li><a href='/scott'> Scott & Roberts Tailors</a></li>
+                <li><a href='/service-tailors'> Service Tailors </a></li>
+                <li><a href='/speight'> Speight's Service Station</a></li>
+                <li><a href='/sulton'> Sulton's Esso Service Station</a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className='py-1.5'>T</h2>
             <ol className='space-y-.5'>
-                <li>Tavrens Shaws Cafe </li>
-                <li>Thompson's Esso Servicecenter</li>
+                <li><a href='/taverns-shaw'> Tavrens Shaws Cafe</a></li>
+                <li><a href='/thompsons'> Thompson's Esso Servicecenter</a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className='py-1.5'>U</h2>
             <ol className='space-y-.5'>
-                <li>Union Tailors</li>
+                <li><a href='/union'> Union Tailors</a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className='py-1.5'>V</h2>
             <ol className='space-y-.5'>
-                <li>Vanity Fair Beauty Parlor </li>
+                <li><a href='/vanity'> Vanity Fair Beauty Parlor</a></li>
             </ol>
         </div>
 
         <div className='py-5'>
             <h2 className='py-1.5'>W</h2>
             <ol className='space-y-.5'>
-                <li>William's Service Station </li>
+                <li><a href='/williams'> William's Service Station</a></li>
             </ol>
         </div>
 
