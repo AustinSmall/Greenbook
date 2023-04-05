@@ -64,6 +64,10 @@ function App() {
     path='/locations'
     element={<Locations/>}
     />
+    <Route
+    path='/timeline'
+    element={<Timeline/>}
+    />
     <Route 
     path= '/biltmore-hotel'
     element={<BHotel/>}
