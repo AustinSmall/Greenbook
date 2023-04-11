@@ -4,7 +4,7 @@ const DOrsay = () => {
     return ( 
         <section>
             <div className="git">
-                <h1 className="flex text-center content-center pt-5 font-bold font text-xl"> D'Orsay Beauty Parlor </h1>
+                <h1 className="text-center  pt-5 font-bold font text-xl"> D'Orsay Beauty Parlor </h1>
             </div>
 
             <div>

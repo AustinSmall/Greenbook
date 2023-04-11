@@ -40,7 +40,10 @@ const Timeline = () => {
     <p>
        1 Hotel, 1 Tourist Home, 5 Restaurants, 5 Beauty Parlors, 2 Barber Shops, 4 Taverns, 8 Service Stations, 2 Drug Stores, 6 Tailors.
     </p>
+    <img className="pt-5 w-3/4" src="college-inn.jpg"></img>
   </VerticalTimelineElement>
+ 
+ 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="1952"
@@ -62,6 +65,7 @@ const Timeline = () => {
     <p>
       2 Hotels, 4 Restaurants, 5 Beauty Parlors, 1 Barber Shops, 3 Taverns, 7 Service Stations, 2 Drug Stores, 5 Tailors.
     </p>
+    <img className="pt-5" src="brown.jpeg"></img>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
@@ -84,6 +88,7 @@ const Timeline = () => {
     <p>
       1 Hostelry, 1 Hotel, 2 Restaurants.
     </p>
+    <img className="pt-5" src="sit-in.jpeg"></img>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     contentStyle={{ background: 'rgb(250, 250, 250)', color: '#000' }}
