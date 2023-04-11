@@ -2,7 +2,7 @@ import React from "react";
 
 const Chautauqua = () => {
     return (
-        <h1> Chautauqua Tavern</h1>
+        <h1 className="text-center pt-10 text-3xl"> Chautauqua Tavern</h1>
     )
 }
 

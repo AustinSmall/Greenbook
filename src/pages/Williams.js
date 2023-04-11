@@ -2,7 +2,7 @@ import React from "react";
 
 const Williams = ()=> {
     return(
-        <h1>William's Service Station</h1>
+        <h1 className="text-center pt-10 text-3xl">William's Service Station</h1>
     )
 }
 

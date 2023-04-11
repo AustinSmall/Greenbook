@@ -2,7 +2,7 @@ import React from "react";
 
 const Pettigrew = ()=> {
     return(
-        <h1>Pettigrew Street</h1>
+        <h1 className="text-center pt-10 text-3xl">Pettigrew Street</h1>
     )
 }
 

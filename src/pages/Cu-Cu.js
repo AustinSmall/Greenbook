@@ -2,7 +2,7 @@ import React from "react";
 
 const CuCu = () => {
     return (
-        <h1>Cu-Cu Restaurant</h1>
+        <h1 className="text-center pt-10 text-3xl">Cu-Cu Restaurant</h1>
     )
 }
 

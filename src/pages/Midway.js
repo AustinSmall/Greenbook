@@ -2,7 +2,7 @@ import React from "react";
 
 const Midway = ()=> {
     return(
-        <h1>Midway Service Station</h1>
+        <h1 className="text-center pt-10 text-3xl">Midway Service Station</h1>
     )
 }
 

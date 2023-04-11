@@ -2,7 +2,7 @@ import React from "react";
 
 const ODaniel = ()=> {
     return(
-        <h1>Mrs. N. O'Daniel- Tourist Home </h1>
+        <h1 className="text-center pt-10 text-3xl">Mrs. N. O'Daniel- Tourist Home </h1>
     )
 }
 
