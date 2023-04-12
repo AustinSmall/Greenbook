@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 
 const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -19,13 +19,13 @@ const settings = {
     return (
       <Slider {...settings}>
         <div>
-          <img className='object-center' src="biltmore.jpeg" alt="Slide 1" />
+          <img className='object-center min-l-full' src="biltmore.jpeg" alt="Slide 1" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/500x250.png?text=Slide+2" alt="Slide 2" />
+          <img className='object-center min-l-full' src="Regal-Biltmore.jpeg" alt="Slide 2" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/500x250.png?text=Slide+3" alt="Slide 3" />
+          <img src="building.jpeg" alt="Slide 3" />
         </div>
       </Slider>
     );

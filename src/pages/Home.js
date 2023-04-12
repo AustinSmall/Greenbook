@@ -10,7 +10,7 @@ const Home = () => {
     <div>
         <h1>Our Purpose</h1>
     </div>
-     <section>
+     <section className='text-center'>
         <p>
         The Durham Green Book listings served as a proxy for Black tourism activity in Durham and the vitality and vibrancy of the Hayti neighborhood, the nexus of the listings. 
         Listings peaked between 1947–1955 and were overwhelmingly concentrated in the cultural center of the Black population, the neighborhood known as Hayti. 
@@ -23,11 +23,6 @@ const Home = () => {
           account managers of nonprofit organizations.
         </p>
         <h1>How It All Works</h1>
-        <p>
-          Donors are able to communicate about upcoming pledges, update their contact information and even make a donation all
-          from one place. Account managers will have a running record of all communication, with any particular donor, 
-          eliminating the need to create contact reports in their database.
-        </p>
         
     </section>
         </main>
