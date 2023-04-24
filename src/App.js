@@ -49,180 +49,51 @@ function App() {
    <Router>
     <div className='bg-vintage bg-cover bg-no-repeat bg-center h-screen overflow-hidden'>
       <Header/>
-      <div>
         <Routes>
-          <Route
-          path='/'
-          element={<Home/>}
-          />
-    <Route 
-    path='/locations'
-    element={<Locations/>}
-    />
-    <Route
-    path='/timeline'
-    element={<Timeline/>}
-    />
-    <Route 
-    path= '/biltmore-hotel'
-    element={<BHotel/>}
-    />
-    <Route
-    path='/biltmore-station'
-    element={<BStation/>} 
-    />
-    <Route
-    path='/boykins-tailors'
-    element={<Boykins/>}
-    />
-    <Route
-    path='/bull-city-drug-store'
-    element={<BullD/>}
-    />
-    <Route
-    path='/bull-city-resturant'
-    element={<BullR/>}
-    />
-    <Route
-    path='/catlett'
-    element= {<Catlett/>}
-    />
-    <Route
-    path='/chautauqua'
-    element={<Chautauqua/>}
-    />
-    <Route
-    path='/clay'
-    element={<Clay/>}
-    />
-    <Route
-    path='/college'
-    element={<College/>}
-    />
-    <Route
-    path='/community'
-    element={<Community/>}
-    />
-    <Route
-    path='/congro'
-    element={<Congro/>}
-    />
-    <Route
-    path='/cu-cu'
-    element={<CuCu/>}
-    />
-    <Route
-    path='/d-orsay'
-    element={<DOrsay/>}
-    />
-    <Route
-    path='de-lux'
-    element={<DeLux/>}
-    />
-    <Route
-    path='de-shazor'
-    element={<Shazors/>}
-    />
-    <Route
-    path= '/elite'
-    element={<Elite/>}
-    />
-
-    <Route 
-    path='/friendly'
-    element={<Friendly/>}
-    />
-    <Route
-    path='/garrett'
-    element={<Garrett/>}
-    />
-     <Route
-    path='/granite'
-    element={<Granite/>}
-    />
-     <Route
-    path='/hollywood'
-    element={<Hollywood/>}
-    />
-     <Route
-    path='/jacks'
-    element={<Jacks/>}
-    />
-     <Route
-    path='/jones-hotel'
-    element={<Jones/>}
-    />
-     <Route
-    path='/mary'
-    element={<Mary/>}
-    />
-     <Route
-    path='/midway'
-    element={<Midway/>}
-    />
-     <Route
-    path='/morris'
-    element={<Morris/>}
-    />
-     <Route
-    path='/o-daniel'
-    element={<ODaniel/>}
-    />
-     <Route
-    path='/parkers'
-    element={<Parkers/>}
-    />
-     <Route
-    path='/pettigrew'
-    element={<Pettigrew/>}
-    />
-     <Route
-    path='/pine-street'
-    element={<Pine/>}
-    />
-     <Route
-    path='/royals'
-    element={<Royal/>}
-    />
-     <Route
-    path='/scott-roberts'
-    element={<Scott/>}
-    />
-     <Route
-    path='/service-tailors'
-    element={<Service/>}
-    />
-     <Route
-    path='/speights'
-    element={<Speight/>}
-    />
-     <Route
-    path='/sulton'
-    element={<Sulton/>}
-    />
-     <Route
-    path='/taverns-shaw'
-    element={<Taverns/>}
-    />
-     <Route
-    path='/thompsons'
-    element={<Thompsons/>}
-    />
-     <Route
-    path='/union'
-    element={<Union/>}
-    />
-     <Route
-    path='/vanity'
-    element={<Vanity/>}
-    />
-     <Route
-    path='/williams'
-    element={<Williams/>}
-    />
-  </Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/locations' element={<Locations/>}/>
+          <Route path='/timeline' element={<Timeline/>}/>
+          <Route path= '/biltmore-hotel' element={<BHotel/>}/>
+          <Route path='/biltmore-station' element={<BStation/>}/>
+          <Route path='/boykins-tailors' element={<Boykins/>}/> 
+          <Route path='/bull-city-drug-store' element={<BullD/>}/>
+          <Route path='/bull-city-resturant' element={<BullR/>}/>
+          <Route path='/catlett' element= {<Catlett/>}/>
+          <Route path='/chautauqua' element={<Chautauqua/>}/>
+          <Route path='/clay' element={<Clay/>}/>
+          <Route path='/college' element={<College/>}/>
+          <Route path='/community' element={<Community/>}/>
+          <Route path='/congro' element={<Congro/>}/>
+          <Route path='/cucu' element={<CuCu/>}/>
+          <Route path='/d-orsay' element={<DOrsay/>}/>
+          <Route path='delux' element={<DeLux/>}/> 
+          <Route path='de-shazor' element={<Shazors/>}/>
+          <Route path= '/elite' element={<Elite/>}/>
+          <Route path='/friendly' element={<Friendly/>}/>
+          <Route path='/garret' element={<Garrett/>}/>
+          <Route path='/granite' element={<Granite/>}/>
+          <Route path='/hollywood' element={<Hollywood/>}/>
+          <Route path='/jacks' element={<Jacks/>}/>
+          <Route path='/jones' element={<Jones/>}/>
+          <Route path='/mary'element={<Mary/>}/>
+          <Route path='/midway' element={<Midway/>}/>
+          <Route path='/morris' element={<Morris/>}/>
+          <Route path='/o-daniel' element={<ODaniel/>}/>
+          <Route path='/parkers' element={<Parkers/>}/> 
+          <Route path='/pettigrew' element={<Pettigrew/>}/>
+          <Route path='/pine' element={<Pine/>}/>
+          <Route path='/royals' element={<Royal/>}/>
+          <Route path='/scott-roberts' element={<Scott/>}/>
+          <Route path='/service-tailors' element={<Service/>}/> 
+          <Route path='/speight' element={<Speight/>}/>
+          <Route path='/sulton' element={<Sulton/>}/>
+          <Route path='/taverns-shaw' element={<Taverns/>}/>
+          <Route path='/thompsons' element={<Thompsons/>}/>
+          <Route path='/union' element={<Union/>}/>
+          <Route path='/vanity' element={<Vanity/>}/>
+          <Route path='/williams' element={<Williams/>}/>
+      </Routes>
       </div>
-    </div>
   </Router>
   );
 }
