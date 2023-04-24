@@ -2,7 +2,7 @@ import React from "react";
 
 const DOrsay = () => {
     return ( 
-        <section className='bg-vintage bg-cover bg-no-repeat'>
+        <section>
             <div>
                 <h1 className="text-center  pt-5 font-bold font text-xl"> D'Orsay Beauty Parlor </h1>
             </div>

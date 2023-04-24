@@ -19,7 +19,7 @@ const settings = {
   function PictureSlideshow() {
     return (
       <Slider {...settings}>
-        <div>
+        <div className='justify-center'>
           <img className='object-center min-l-full' src="biltmore.jpeg" alt="Slide 1" />
         </div>
         <div>

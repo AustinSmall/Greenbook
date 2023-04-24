@@ -3,7 +3,7 @@ import LocationsComponent from "../components/Locations";
  
 const Locations = () => {
     return (
-        <div className="bg-vintage bg-cover">
+        <div>
             <LocationsComponent/>
         </div>
     )

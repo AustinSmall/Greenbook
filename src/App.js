@@ -1,5 +1,4 @@
 import './App.css';
-import About from './pages/About';
 import Locations from './pages/Locations';
 import BHotel from './pages/Biltmore-Hotel';
 import BStation from './pages/Biltmore-Station';
@@ -48,7 +47,7 @@ import Williams from './pages/Williams';
 function App() {
   return (
    <Router>
-    <div>
+    <div className='bg-vintage bg-cover bg-no-repeat bg-center h-screen overflow-hidden'>
       <Header/>
       <div>
         <Routes>
@@ -56,10 +55,6 @@ function App() {
           path='/'
           element={<Home/>}
           />
-    <Route 
-    path="/about"
-    element= {<About/>}
-    />
     <Route 
     path='/locations'
     element={<Locations/>}
