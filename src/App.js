@@ -47,7 +47,7 @@ import Williams from './pages/Williams';
 function App() {
   return (
    <Router>
-    <div className='bg-vintage bg-cover bg-no-repeat bg-center h-screen overflow-hidden'>
+    <div className='bg-vintage bg-cover bg-image bg-repeat position-relative bg-center h-screen'>
       <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -83,7 +83,7 @@ function App() {
           <Route path='/pettigrew' element={<Pettigrew/>}/>
           <Route path='/pine' element={<Pine/>}/>
           <Route path='/royals' element={<Royal/>}/>
-          <Route path='/scott-roberts' element={<Scott/>}/>
+          <Route path='/scott' element={<Scott/>}/>
           <Route path='/service-tailors' element={<Service/>}/> 
           <Route path='/speight' element={<Speight/>}/>
           <Route path='/sulton' element={<Sulton/>}/>

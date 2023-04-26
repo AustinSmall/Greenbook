@@ -2,7 +2,7 @@ import React from 'react';
 
 function TextColumns() {
   return (
-    <div className="container flex-shrink mx-full columns-3 p-6 sm:columns-4 ">
+    <div className=" bg-vintage flex-shrink mx-full columns-3 p-6 sm:columns-4 ">
         <div> 
             <h2 className="py-3">A</h2>
         </div>
