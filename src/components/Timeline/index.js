@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
   return (
-    <div className=" bg-vintage">
+    <div>
 
     <VerticalTimeline>
   <VerticalTimelineElement
